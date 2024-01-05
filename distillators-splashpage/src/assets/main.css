@@ -3,33 +3,31 @@
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 3rem;
   font-weight: normal;
+  font-family: 'Work Sans', sans-serif;
 }
 
 a,
-.green {
+.red-brown {
+  font-size: 1.3rem;
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: #7A0026;
   transition: 0.4s;
   padding: 3px;
+  font-weight: 700;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    color: #660025;
   }
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+body {
+  display: flex;
+  place-items: center;
+  justify-items: center;
+  align-items: center;
 }
+
